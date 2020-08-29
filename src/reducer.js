@@ -1,5 +1,22 @@
 export const initialState = {
-    basket: [],
+    basket: [
+        {
+            id: '11',
+            title: "item11",
+            price: "500",
+            rating: 4,
+            image: "image1.jpeg"
+        },
+        {
+            id: '12',
+            title: "item12",
+            price: "500",
+            rating: 4,
+            image: "image1.jpeg"
+        }
+
+    ],
+    user: null,
 }
 
 const reducer = (state, action) => {
